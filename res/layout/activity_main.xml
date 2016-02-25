@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipChildren="false"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:id="@+id/location_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@null"
+        android:listSelector="@null" >
+    </ListView>
+
+    <com.example.indexsidebar.views.SideBar
+        android:id="@+id/location_sideBar"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true" />
+
+</RelativeLayout>
